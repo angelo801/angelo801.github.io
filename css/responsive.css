@@ -1,0 +1,689 @@
+/*  Theme Responsive Css */
+
+@media only screen and (max-width: 5000px){
+  
+  .boxed_wrapper{
+    overflow-x: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 1749px){
+  
+  .main-header.style-two .outer-container .header-upper:before{
+    display: none;
+  }
+
+  .main-header .outer-container .header-upper .menu-right-content .info-box li{
+    margin-right: 15px;
+  }
+
+  .main-header.style-two .main-menu .navigation > li{
+    padding: 21px 30px 20px 30px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1699px){
+
+  .main-header .outer-container{
+    padding-left: 80px;
+  }
+
+  .intro-section .single-intro-box{
+    padding-left: 50px;
+  }
+
+  .main-slider.style-two .inner-box .image-box:before,
+  .main-slider.style-two .inner-box .image-box:after{
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 1449px){
+
+  .main-header .outer-container .header-top .logo-box .logo{
+    margin-right: 40px;
+  }
+
+  .main-header .outer-container .header-top .top-left .info-box li{
+    margin-right: 10px;
+  }
+
+  .main-menu .navigation > li{
+    margin: 0px 25px;
+  }
+
+  .main-header .outer-container .header-upper .bg-box:after,
+  .main-header .outer-container .header-upper .bg-box:before{
+    display: none;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1200px){
+
+  .main-header .outer-container .header-top .top-right,
+  .main-header .outer-container .header-top .top-left{
+    position: relative;
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .main-header .outer-container .header-upper .menu-right-content .info-box li{
+    margin-right: 15px;
+  }
+
+  .main-menu .navigation > li{
+    margin: 0px 10px;
+  }
+
+  .intro-section .single-intro-box{
+    padding: 90px 30px;
+  }
+
+  .intro-section .single-intro-box .inner-box .content-box{
+    padding-left: 80px;
+  }
+
+  .single-research-box .inner-box{
+    padding: 50px 25px;
+  }
+
+  .testimonial-section .inner-box{
+    padding: 25px 65px 36px 430px;
+  }
+
+  .testimonial-section .inner-box .image-box:before{
+    display: none;
+  }
+
+  .researches-section .single-item{
+    width: 33.333%;
+  }
+
+  .team-details .inner-box .image-box{
+    position: relative;
+  }
+
+  .team-details .inner-box .content-box{
+    padding: 50px;
+  }
+
+  .main-footer .anim-icon,
+  .main-slider .content-box:before{
+    display: none;
+  }
+
+  .main-header.style-two .outer-container .header-top .top-left .info-box{
+    float: none;
+    margin: 0px;
+    padding-bottom: 15px;
+  }
+
+  .main-header.style-two .header-top .logo-box{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    -webkit-transform: translate(-0%, -0%);
+    transform: translate(-0%, -0%);
+  }
+
+  .main-header.style-two .main-menu .navigation > li {
+    padding: 21px 15px 20px 15px;
+  }
+
+  .main-slider.style-two .inner-box .image-box{
+    display: none;
+  }
+
+  .main-slider.style-two .content-box{
+    max-width: 100%;
+  }
+
+  .innovative-solutions .image-box{
+    margin: 0px;
+  }
+
+  .innovative-solutions .content-box{
+    margin-right: 0px;
+  }
+
+  .discover-section .upper-box .upper-content .title-box,
+  .discover-section .upper-box .upper-content .btn-box{
+    float: none;
+    display: block;
+  }
+
+  .research-page-section .single-item .inner-box .lower-content{
+    padding-left: 50px;
+  }
+
+  .sidebar-page-container .sidebar .sidebar-widget{
+    padding: 40px 30px;
+  }
+
+  .contact-section .content-box .info-content .single-info-box{
+    padding-right: 30px;
+  }
+
+  .discover-section .upper-box .upper-content .title-box h1{
+    max-width: 100%;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+  .main-menu .navigation > li > ul,
+  .main-menu .navigation > li > ul > li > ul{
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+  }
+}
+
+
+
+@media only screen and (max-width: 991px){
+
+  .main-menu,
+  .sticky-header,
+  .main-header.style-one .outer-container:before{
+    display: none !important;
+  }
+
+  .main-header .outer-container .header-top .logo-box{
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .main-header .outer-container .header-top .top-left .info-box{
+    float: none;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .main-header .outer-container{
+    padding-left: 0px;
+  }
+
+  .main-header .outer-container .header-top .logo-box .logo{
+    margin: 0px;
+  }
+
+  .main-header .outer-container .header-top{
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  .menu-area .mobile-nav-toggler {
+    display: block;
+    margin-top: 16px;
+    padding: 10px;
+  }
+
+  .intro-section .single-intro-box{
+    width: 50%;
+    border: none !important;
+  }
+
+  .welcome-section .image-box{
+    margin: 0px;
+  }
+
+  .welcome-section .image-box .image-1{
+    margin-bottom: 30px;
+  }
+
+  .welcome-section .image-box .image-2{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: 30px;
+  }
+
+  .welcome-section .image-box .text-box{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+
+  .cta-section .inner-box .left-content,
+  .cta-section .inner-box .right-content{
+    float: none;
+    display: block;
+  }
+
+  .cta-section .inner-box .left-content{
+    margin-bottom: 20px;
+  }
+
+  .single-research-box{
+    margin-bottom: 30px;
+  }
+
+  .research-fields{
+    padding-bottom: 90px;
+  }
+
+  .testimonial-section .slider-pager li{
+    display: inline-block;
+  }
+
+  .testimonial-section .inner-container .title-text{
+    display: none;
+  }
+
+  .testimonial-section .inner-box .image-box{
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-section .inner-box .image-box img{
+    width: 100%;
+  }
+
+  .testimonial-section .inner-box{
+    padding: 50px;
+    margin: 0px;
+  }
+
+  .testimonial-section:before{
+    width: 100%;
+  }
+
+  .testimonial-section .slider-pager{
+    margin: 0px;
+    text-align: center;
+  }
+
+  .single-team-block{
+    margin-bottom: 30px;
+  }
+
+  .team-section{
+    padding-bottom: 90px;
+  }
+
+  .news-block-one .inner-box .lower-content{
+    padding-left: 30px;
+  }
+
+  .news-block-one .inner-box .lower-content .link-btn{
+    left: 30px;
+  }
+
+  .main-footer .widget-section .footer-widget{
+    margin: 0px 0px 30px 0px !important;
+  }
+
+  .main-footer .footer-upper{
+    padding-bottom: 60px;
+  }
+
+  .main-header.style-two .menu-area .mobile-nav-toggler{
+    background: #f96b39;
+  }
+
+  .main-header .outer-container .header-upper{
+    padding: 0px 30px !important;
+  }
+
+  .main-header .outer-container .header-top{
+    padding: 30px !important;
+  }
+
+  .research-style-two .main-content .single-item{
+    margin-bottom: 60px;
+  }
+
+  .research-style-two{
+    padding-bottom: 10px;
+  }
+
+  .innovative-solutions .content-box{
+    margin-bottom: 40px;
+  }
+
+  .innovative-solutions .image-box{
+    padding: 0px;
+  }
+
+  .innovative-solutions .image-box .image-2{
+    position: relative;
+    right: 0px;
+  }
+
+  .innovative-solutions .image-box .image-1{
+    margin-bottom: 30px;
+  }
+
+  .innovative-solutions .image-box .image-2:before,
+  .innovative-solutions .image-box .image-2:after{
+    display: none;
+  }
+
+  .discover-section .lower-box .single-item .inner-box{
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .discover-section{
+    padding-bottom: 90px;
+  }
+
+  .chooseus-section .chooseus-content{
+    margin-bottom: 50px;
+  }
+
+  .news-block-two{
+    margin-bottom: 30px;
+  }
+
+  .news-style-two{
+    padding-bottom: 80px;
+  }
+
+  .team-details .single-progress-box{
+    margin: 20px;
+  }
+
+  .professor-details-page .certificates-education .certificates-inner .content-box{
+    margin-bottom: 30px;
+  }
+
+  .professor-details-page .certificates-education .education-inner .single-item .date:before{
+    display: none;
+  }
+
+  .sidebar-page-container .blog-details-content{
+    margin-bottom: 40px;
+  }
+
+  .contact-section .content-box{
+    margin-bottom: 40px;
+  }
+
+  .contact-section .content-box .info-content .single-info-box{
+    min-height: 194px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+  .main-slider .content-box{
+    max-width: 100%;
+  }
+
+  .owl-nav{
+    display: none !important;
+  }
+  
+  .intro-section .single-intro-box{
+    width: 100%;
+  }
+
+  .sec-pad,
+  .cta-section{
+    padding: 65px 0px 70px 0px;
+  }
+
+  .research-fields,
+  .team-section{
+    padding-bottom: 40px;
+  }
+
+  .testimonial-section{
+    padding: 70px 0px;
+  }
+
+  .testimonial-section .inner-box{
+    box-shadow: none;
+  }
+
+  .researches-section .single-item{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .video-section{
+    padding: 90px 0px 190px 0px;
+  }
+
+  .fact-counter .inner-container{
+    padding: 60px 15px;
+  }
+
+  .clients-section{
+    padding: 60px 0px;
+  }
+
+  .research-style-two .title-box{
+    padding-top: 65px;
+  }
+
+  .discover-section .upper-box{
+    padding: 70px 0px 190px 0px;
+  }
+
+  .discover-section{
+    padding-bottom: 40px;
+  }
+
+  .video-section.home-2{
+    padding-bottom: 140px;
+  }
+
+  .chooseus-section{
+    padding-bottom: 70px;
+  }
+
+  .news-style-two{
+    padding: 65px 0px 35px 0px;
+  }
+
+  .research-page-section,
+  .Professor-page-section,
+  .blog-page-section{
+    padding: 70px 0px 40px 0px;
+  }
+
+  .research-details,
+  .professor-details-page,
+  .professor-details-page .certificates-education .certificates-inner,
+  .about-section,
+  .sidebar-page-container{
+    padding: 70px 0px;
+  }
+
+  .about-section .image-box .image{
+    margin-bottom: 30px;
+  }
+
+  .sidebar-page-container .blog-details-content .inner-box .lower-content{
+    padding: 50px 30px 0px 30px;
+  }
+
+  .sidebar-page-container .blog-details-content .inner-box .post-share-option .tags-list{
+    float: none;
+    display: block;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .sidebar-page-container .blog-details-content .inner-box .post-share-option .social-links{
+    float: none;
+    display: block;
+  }
+
+  .contact-section .content-box .info-content .single-info-box{
+    margin-bottom: 30px;
+  }
+
+
+}
+
+@media only screen and (max-width: 599px){
+  
+  .main-slider h1{
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 30px;
+  }
+
+  .main-slider .slide,
+  .main-slider.style-two .inner-box{
+    padding: 100px 0px;
+  }
+
+  .sec-title h1,
+  .cta-section .inner-box h1,
+  .discover-section .upper-box .upper-content .title-box h1,
+  .video-section .inner-box h1,
+  .sidebar-page-container .blog-details-content .inner-box .lower-content .inner h1,
+  .page-title .content-box h1,
+  .research-details .research-details-content .inner-box .content-style-one h1{
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .researches-section .single-item{
+    width: 100%;
+  }
+
+  .researches-section .single-item .inner-box{
+    margin-right: 0px;
+  }
+
+  .sidebar-page-container .blog-details-content .author-box .author-inner .image-box{
+    position: relative;
+    top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .sidebar-page-container .blog-details-content .author-box .author-inner{
+    padding-left: 0px;
+  }
+
+  .testimonial-section .slider-pager li:last-child{
+    margin-bottom: 20px;
+  }
+
+}
+
+
+@media only screen and (max-width: 499px){
+
+  .main-header .outer-container .header-upper .menu-right-content .info-box li:last-child{
+    display: none;
+  }
+
+  .main-header .outer-container .header-upper .menu-right-content .info-box li{
+    margin: 0px;
+  }
+
+  .intro-section .single-intro-box{
+    padding: 50px 30px;
+  }
+
+  .testimonial-section .inner-box,
+  .team-details .inner-box .content-box{
+    padding: 50px 20px;
+  }
+
+  .news-block-one .inner-box .lower-content h2{
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .sidebar-page-container .blog-details-content .comments-area .comment .image-box{
+    position: relative;
+    top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .sidebar-page-container .blog-details-content .comments-area .comment .comment-inner{
+    padding-left: 0px;
+  }
+
+}
+
+
+@media only screen and (max-width: 399px){
+
+  .welcome-section .content-box .video-box .video-inner h2{
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .main-footer .footer-top .footer-logo{
+    display: block;
+    text-align: center;
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  .main-footer .footer-top .social-links{
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .innovative-solutions .content-box .experience-box h1{
+    left: 30px;
+  }
+
+  .innovative-solutions .content-box .experience-box{
+    padding-left: 120px;
+    padding-right: 15px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .discover-section .lower-box .single-item .inner-box,
+  .chooseus-section .chooseus-content .inner-box .inner .single-item,
+  .research-page-section .single-item .inner-box .lower-content,
+  .sidebar-page-container .blog-details-content .author-box{
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .chooseus-section .chooseus-content .inner-box .inner .single-item .icon-box{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .chooseus-section .appointment-content .inner-box .inner{
+    padding: 50px 20px;
+  }
+
+  .research-page-section .single-item .inner-box .lower-content .link-btn{
+    left: 30px;
+  }
+
+  .professor-details-page .certificates-education .certificates-inner .certificates-box .certificates figure{
+    margin: 0px 5px;
+  }
+
+  .error-section .content-box h1{
+    font-size: 160px;
+    line-height: 160px;
+  }
+
+}

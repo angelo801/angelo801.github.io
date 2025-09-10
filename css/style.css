@@ -1322,6 +1322,7 @@ div#mCSB_1_container{
   -ms-transform: translateX(-50px);
   -o-transform: translateX(-50px);
   transform: translateX(-50px);
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .main-slider .active h1{

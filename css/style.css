@@ -89,7 +89,7 @@ body {
 }
 
 .large-container{
-  max-width: 1470px;
+  max-width: 1300px;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -447,7 +447,7 @@ img {
 
 .main-header .outer-container .header-top .logo-box .logo{
   position: relative;
-  margin-right: 190px;
+  margin-right: 120px;
 }
 
 .main-header .outer-container .header-top .top-left .info-box li{
@@ -1385,7 +1385,7 @@ div#mCSB_1_container{
   color: #0e1221;
   font-size: 20px;
   font-weight: 600;
-  background: #fff;
+  background: #ffffff30;
   width: 60px;
   height: 60px;
   line-height:60px;
@@ -1997,7 +1997,7 @@ div#mCSB_1_container{
 .researches-section{
   position: relative;
   overflow: hidden;
-  background: #0e1221;
+  /*background: #0e1221;*/
 }
 
 .researches-section:before{
@@ -2020,7 +2020,7 @@ div#mCSB_1_container{
 }
 
 .researches-section .sec-title h1{
-  color: #fff;
+  color: #0e1221 /*#fff;*/
 }
 
 .researches-section .sec-title{
@@ -2033,6 +2033,7 @@ div#mCSB_1_container{
   width: 20%;
   margin-bottom: 60px;
   z-index: 1;
+  width: 200px;
 }
 
 .researches-section .single-item .inner-box{
@@ -2061,7 +2062,7 @@ div#mCSB_1_container{
 .researches-section .single-item .inner-box .lower-content{
   position: relative;
   background: #fff;
-  padding: 22px 15px 26px 15px;
+  padding: 0px 15px 0px 15px;
 }
 
 .researches-section .single-item .inner-box .lower-content h4{
@@ -2759,10 +2760,9 @@ div#mCSB_1_container{
   color:#b6bbcd;
 }
 
-.main-footer .widget-section .about-widget .subscribe-form .form-group button{
+.main-footer .widget-section .about-widget .subscribe-form .form-group a{
   position: absolute;
-  right: 30px;
-  top: 16px;
+  top: -30px;
   font-size: 20px;
   background: transparent;
   color: #fcac20;
@@ -4844,9 +4844,93 @@ div#mCSB_1_container{
 
         .block-nosotros{
     width: 450px;
-    height: 300px;
-    text-align: center;
+    height: 200px;
     align-content: center;
     font-size: 80px;
     color: #e99a10;
+        }
+
+    .text-large{
+    font-size: 23px !important;
+    }
+
+.center-pack{
+  text-align: -webkit-center;
+    text-align: center;
+}
+
+.center-pack img, .single-item.wow.fadeInUp.animated img{
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+
+
+/*Lenguage Selector*/
+ .language-selector {
+            position: relative;
+        }
+        
+        .language-btn {
+            background: rgb(255 255 255 / 10%);
+          border: 1px solid rgb(65 65 65 / 30%);
+          color: #333333;
+          padding: 0.0rem 1rem;
+          border-radius: 4px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          transition: all 0.3s;
+          position: absolute;
+          right: -70;
+          top: 120;
+          z-index: 999999;
+        }
+        
+        .language-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .language-btn i {
+            margin-left: 0.5rem;
+        }
+        
+        .language-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: white;
+            min-width: 150px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            z-index: 1000;
+        }
+        
+        .language-dropdown.show {
+            display: block;
+        }
+        
+        .language-option {
+            padding: 0.8rem 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        
+        .language-option:hover {
+            background: #f5f5f5;
+        }
+        
+        .language-option.active {
+            background: var(--light-color);
+            font-weight: 600;
+        }
+        
+        .language-flag {
+            margin-right: 0.5rem;
+            font-size: 1.2rem;
         }
